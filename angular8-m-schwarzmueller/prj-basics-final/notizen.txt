@@ -1,0 +1,1 @@
+erste Übung: Anzeige der 2 Komponenten über event-Mechanismus in header (statt router)

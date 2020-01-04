@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SHOPPING_LIST } from '../app/shared/constants';
 
 @Component({
   selector: 'app-root',
@@ -6,4 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  showShoppingList = false;
+
+  onComponentSelected(event: {component: string}) {
+
+    if (event.component === SHOPPING_LIST) {
+      this.showShoppingList = true;
+    } else {
+      this.showShoppingList = false;
+    }
+  }
 }
