@@ -13,6 +13,7 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { DynamicHighlightDirective } from './directives/dynamic-highlight.directive';
+import { UnlessDirective } from './directives/unless.directive';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { DynamicHighlightDirective } from './directives/dynamic-highlight.direct
     ShoppingListComponent,
     ShoppingEditComponent,
     HighlightDirective,
-    DynamicHighlightDirective
+    DynamicHighlightDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
