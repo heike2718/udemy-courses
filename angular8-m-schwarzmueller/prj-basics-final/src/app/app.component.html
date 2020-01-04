@@ -10,4 +10,22 @@
       </div>
     </div>
   </div>
+  <hr>
+  <p appDynamicHighlight>Highlighted Text with directive defaults</p>
+  <p appDynamicHighlight [defaultColor]="'yellow'" [highLightColor]="'red'">Highlighted Text with overridden directive
+    defaults</p>
+
+  <hr>
+  <div *appUnless="showShoppingList">
+    <p>This is only visible with recipes.</p>
+  </div>
+
+  <hr>
+  <div [ngSwitch]="value">
+
+    <p *ngSwitchCase="5">The value is 5</p>
+    <p *ngSwitchCase="10">The value is 10</p>
+    <p *ngSwitchDefault>The value is default</p>
+  </div>
+
 </div>
