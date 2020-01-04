@@ -9,6 +9,7 @@ import { SHOPPING_LIST } from '../app/shared/constants';
 export class AppComponent {
 
   showShoppingList = false;
+  value = 5;
 
   onComponentSelected(event: {component: string}) {
 
