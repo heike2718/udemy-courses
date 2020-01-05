@@ -4,6 +4,10 @@ contains material I produced during solving tasks of Udemy courses.
 
 ## Release Notes
 
+__Release v004__
+
+angular-8-m-schwarzmueller: (Course project) Ende von Modul 12 (Routing): *ngIf-Navigation aus Version v001 ersetzt durch Router
+
 __Release v003__
 
 angular-8-m-schwarzmueller: (Übung) Ende von Modul 10 (Services): Lösung aus Version v001 ersetzt durch Kommunikation über Services.
