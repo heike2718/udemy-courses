@@ -18,7 +18,7 @@ export class RecipeService {
     new Recipe('Big Fat Burger',
       'What else you need to say?',
       'http://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg',
-            [
+      [
         new Ingredient('Buns', 2),
         new Ingredient('Meat', 1)
       ])
@@ -30,5 +30,15 @@ export class RecipeService {
 
     // returns a copy of the recipes.
     return this.recipes.slice();
+  }
+
+  getRecipeByIndex(index: number): Recipe {
+
+    // if (index < 0 || index >= this.recipes.length) {
+    //   return null;
+    // }
+    // return this.recipes[index];
+    // Das reicht aus, weil es nicht sowas wie eine ArrayOutOfBoundsException gibt :)
+    return this.recipes[index];
   }
 }
