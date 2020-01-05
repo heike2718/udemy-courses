@@ -1,7 +1,7 @@
 # MyFirstApp
 
 ## Release notes
-[Release-Notes](RELEASE-NOTES.md)
+[Release-Notes](../../README.md)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 

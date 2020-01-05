@@ -1,0 +1,6 @@
+ViewChild: Zugriff auf eine lokale Referenz (#bla) in einer anderen Komponente. Typ ist ElementRef
+ContentChild: zugriff auf eine lokale Referenz (#bla) in einer anderen Komponente. Typ ist ElementRef
+
+Was ist der Unterschied zwischen ContentChild und ViewChild ?
+
+ContentChild ist spezialisiert auf das ng-content- Element, also auf den projezierten Content einer anderen Komponente
